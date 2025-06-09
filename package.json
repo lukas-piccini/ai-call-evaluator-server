@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx json-server --watch --id call_id index.js --port 10000"
+    "start": "npx json-server --watch --id call_id index.js --port $PORT"
   },
   "author": "",
   "license": "ISC",
